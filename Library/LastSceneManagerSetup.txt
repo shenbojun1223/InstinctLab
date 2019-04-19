@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/Youngs/ysScenes/ysTest1.unity
-  isLoaded: 1
-  isActive: 1
