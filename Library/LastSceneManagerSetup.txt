@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Youngs/Scenes/SampleScene.unity
+- path: Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/DemoHub-Scene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -41,9 +41,9 @@ namespace ILab.Youngs
         {
             var job = new PlayerInputJob{
 
-                pFire = Input.GetMouseButton(0),
-                moveHorizontal = Input.GetAxis("HorizontalPlayer1"),
-                moveVertical = Input.GetAxis("VerticalPlayer1"),
+                pFire = Input.GetButtonDown("Fire1"),
+                moveHorizontal = Input.GetAxis("Horizontal"),
+                moveVertical = Input.GetAxis("Vertical"),
                 
             };
             return job.Schedule(this, inputDeps);
