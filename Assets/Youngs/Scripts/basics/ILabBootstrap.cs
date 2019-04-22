@@ -13,14 +13,17 @@ namespace ILab.Youngs {
         public static void NewGame()
         {
             Debug.Log("游戏运行");
+
+         
+
         }
 
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
         public static void InitializeWithScene()
         {
-            var settingsGo = GameObject.Find("Settings");
-            Settings = settingsGo?.GetComponent<ILabSettings>();
-            Assert.IsNotNull(Settings);     
+            //var settingsGo = GameObject.Find("Settings");
+            //Settings = settingsGo?.GetComponent<ILabSettings>();
+            //Assert.IsNotNull(Settings);     
         }
     }
 

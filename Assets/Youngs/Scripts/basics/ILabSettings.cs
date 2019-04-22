@@ -8,6 +8,7 @@ namespace ILab.Youngs
     {
         //##创建玩家预制体
         public GameObject playerPrefab;
+        public Camera Camera;
 
         #region Character Attributes Area
 

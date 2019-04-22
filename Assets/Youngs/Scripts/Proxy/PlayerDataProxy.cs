@@ -24,7 +24,7 @@ namespace ILab.Youngs
                     moveSpeed = 5f   //测试需要，实际项目中不应该在此处设置具体的值,应在游戏创建初使用Set方法来做
                 });
             dstManager.AddComponentData(entity, new PlayerInput { });
-
+       
         }
     }
 }
