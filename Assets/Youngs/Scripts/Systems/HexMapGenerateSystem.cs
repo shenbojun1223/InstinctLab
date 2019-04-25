@@ -33,7 +33,7 @@ namespace ILab.Youngs
                 [ReadOnly] ref HexCellData hexCellData,
                 [ReadOnly] ref LocalToWorld location)
             {
-                for (int z = 0, i = 0; z < hexCellData.mapHeight; z++)
+                for (int z = 0/*, i = 0*/; z < hexCellData.mapHeight; z++)
                 {
                     for (int x = 0; x < hexCellData.mapWidth; x++)
                     {
@@ -56,6 +56,7 @@ namespace ILab.Youngs
                         {
                             Value = position,
                         });
+                     
                         //CommandBuffer.SetComponent(instance, new HexCellData
                         //{
                         //    id = i,
@@ -63,7 +64,7 @@ namespace ILab.Youngs
                     }
                 }
 
-                CommandBuffer.DestroyEntity(entity);
+                CommandBuffer.DestroyEntity(entity);//创建完后务必删除，否则系统持续能找到该组件将无限创建
             }
         }
 

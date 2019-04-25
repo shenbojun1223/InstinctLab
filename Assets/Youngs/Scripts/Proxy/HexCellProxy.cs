@@ -23,7 +23,6 @@ namespace ILab.Youngs
 
         public void Convert(Entity entity, EntityManager dstManager, GameObjectConversionSystem conversionSystem)
         {
-
             dstManager.AddComponentData(
                 entity, new HexCellData {
                     entity    = conversionSystem.GetPrimaryEntity(m_prefab),

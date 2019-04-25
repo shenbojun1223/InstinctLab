@@ -69,7 +69,7 @@
     <Compile Include="Assets\Youngs\Scripts\Components\HexCellComponent.cs" />
     <Compile Include="Assets\Youngs\Scripts\Components\PlayerDataComponents.cs" />
     <Compile Include="Assets\Youngs\Scripts\Proxy\HexCellProxy.cs" />
-    <Compile Include="Assets\Youngs\Scripts\Proxy\PlayerDataProxy.cs" />
+    <Compile Include="Assets\Youngs\Scripts\Proxy\PlayerProxy.cs" />
     <Compile Include="Assets\Youngs\Scripts\Systems\CameraFollowSystem.cs" />
     <Compile Include="Assets\Youngs\Scripts\Systems\HexMapGenerateSystem.cs" />
     <Compile Include="Assets\Youngs\Scripts\Systems\PlayerInputSystem.cs" />
