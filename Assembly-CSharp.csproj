@@ -71,17 +71,15 @@
     <Compile Include="Assets\Youngs\Scripts\Proxy\HexCellProxy.cs" />
     <Compile Include="Assets\Youngs\Scripts\Proxy\PlayerProxy.cs" />
     <Compile Include="Assets\Youngs\Scripts\Systems\CameraFollowSystem.cs" />
+    <Compile Include="Assets\Youngs\Scripts\Systems\EnviromentGenerateSystem.cs" />
     <Compile Include="Assets\Youngs\Scripts\Systems\HexMapGenerateSystem.cs" />
     <Compile Include="Assets\Youngs\Scripts\Systems\PlayerInputSystem.cs" />
     <Compile Include="Assets\Youngs\Scripts\Systems\PlayerMoveSystem.cs" />
     <Compile Include="Assets\Youngs\Scripts\Systems\RunFixedUpdateSystems.cs" />
-    <Compile Include="Assets\Youngs\Scripts\Test\HelloSpawner.cs" />
-    <Compile Include="Assets\Youngs\Scripts\Test\HelloSpawnerProxy.cs" />
-    <Compile Include="Assets\Youngs\Scripts\Test\HelloSpawnerSystem.cs" />
-    <Compile Include="Assets\Youngs\Scripts\Test\HexMapTest\HexCell.cs" />
-    <Compile Include="Assets\Youngs\Scripts\Test\HexMapTest\HexGrid.cs" />
+    <Compile Include="Assets\Youngs\Scripts\Systems\TopologyProcessSystem.cs" />
     <Compile Include="Assets\Youngs\Scripts\Utils\BlittableBool.cs" />
     <Compile Include="Assets\Youngs\Scripts\Utils\HexMertrics.cs" />
+    <Compile Include="Assets\Youngs\Scripts\Utils\ILabMathmatics.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>E:/GameDevlop/instinctlab/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

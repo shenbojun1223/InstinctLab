@@ -36,6 +36,7 @@ namespace ILab.Youngs
             }
         }
 
+        
         //这个是主线程里面做的事
         protected override JobHandle OnUpdate(JobHandle inputDeps)
         {

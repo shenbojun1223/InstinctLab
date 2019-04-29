@@ -13,24 +13,31 @@ namespace ILab.Youngs
     public class HexCellProxy : MonoBehaviour, IDeclareReferencedPrefabs,IConvertGameObjectToEntity
     {
         public GameObject m_prefab;
+        public GameObject m_woodPrefab;
         public int m_mapWidth;
         public int m_mapHeight;
-
+       
         public void DeclareReferencedPrefabs(List<GameObject> referencedPrefabs)
         {
             referencedPrefabs.Add(m_prefab);
+            referencedPrefabs.Add(m_woodPrefab);
         }
 
         public void Convert(Entity entity, EntityManager dstManager, GameObjectConversionSystem conversionSystem)
         {
             dstManager.AddComponentData(
                 entity, new HexCellData {
-                    entity    = conversionSystem.GetPrimaryEntity(m_prefab),
-                    mapWidth  = m_mapWidth,
-                    mapHeight = m_mapHeight
-
+                  
                 });
-
+            dstManager.AddComponentData(
+               entity, new HexCellPrototype
+               {
+                   entity = conversionSystem.GetPrimaryEntity(m_prefab),
+                   wood = conversionSystem.GetPrimaryEntity(m_woodPrefab),
+                   mapWidth = m_mapWidth,
+                   mapHeight = m_mapHeight
+               });
+          
         }
       
     }

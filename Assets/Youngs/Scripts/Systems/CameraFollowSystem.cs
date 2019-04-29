@@ -7,7 +7,7 @@ using UnityEngine;
 //@Youngs 2019年4月22日21:11:44
 namespace ILab.Youngs
 {
-   
+    [UpdateInGroup(typeof(SimulationSystemGroup))]
     public class CameraFollowSystem : ComponentSystem
     {
         private EntityQuery query;
