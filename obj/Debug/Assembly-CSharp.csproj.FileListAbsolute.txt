@@ -1,0 +1,2 @@
+E:\GameDevlop\instinctlab\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+E:\GameDevlop\instinctlab\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
